@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Farwa - Developer portfolio </title>
+    <link rel="stylesheet" href="https://fonts.google.com/specimen/Poppins">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(1, 1, 31);
+            color: aliceblue;
+            font-family: poppins, sans-serif;
+            overflow-x: hidden;
+            width: 100%;
+        }
+
+        nav {
+            display: flex;
+            position: sticky;
+            top: 0px;
+            margin: 10px;
+            justify-content: space-around;
+            height: 80px;
+            background-color: rgb(3, 3, 38);
+            border-bottom: 2px solid rgba(8, 8, 40, 0.598);
+            align-items: center;
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+            list-style: none;
+        }
+
+        nav ul li {
+            margin: 0 25px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: aliceblue;
+        }
+
+        nav ul li a:hover {
+            color: rgb(152, 60, 237);
+            transition: 0.5s ease;
+        }
+
+        .left {
+            font-size: 1.5rem;
+        }
+
+        .firstsection {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 100px 0;
+        }
+
+        .firstsection>div {
+            width: 30%;
+        }
+
+        .leftsection {
+            font-size: 2.5rem;
+
+        }
+
+        .rightsection img {
+            width: 80%;
+            margin-block-end: 50% 0;
+        }
+
+        .purple {
+            color: rgb(163, 77, 244);
+        }
+
+        #element {
+            color: rgb(163, 77, 244);
+        }
+
+        .secondsection {
+            max-width: 80vw;
+            margin: auto;
+            height: 80vh;
+        }
+
+        .secondsection h1 {
+            font-size: 1.5rem;
+        }
+
+        .text-gray {
+            color: gray;
+        }
+
+        .secondsection .box {
+            background-color: white;
+            width: 76vw;
+            height: 2px;
+            margin: 56px 0;
+            display: flex;
+        }
+
+        .image-top {
+            width: 25px;
+            position: relative;
+            top: -29px;
+            left: -9px;
+        }
+
+        .secondsection .vertical {
+            height: 93px;
+            width: 1px;
+            background-color: white;
+            margin: 0 120px;
+        }
+
+        .vertical-title {
+            position: relative;
+            top: 75px;
+            width: 150px;
+            /* font-size: 14px; */
+        }
+
+        .vertical-desc {
+            position: relative;
+            top: 86px;
+            color: gray;
+            font-size: 9px;
+            width: 150px;
+        }
+
+        footer {
+            background-color: rgba(30, 30, 46, 0.872);
+            /* height: 223px; */
+        }
+
+        .footer {
+            display: flex;
+            justify-content: space-evenly;
+            padding: 23px 122px;
+        }
+
+        .footer-first {
+            padding: 20px;
+        }
+
+        .footer ul {
+            list-style: none;
+        }
+
+        .footer>div {
+            width: 230px;
+        }
+
+        footer .footer-rights {
+            text-align: center;
+            color: gray;
+            padding: 12px 0;
+        }
+
+        .buttons {
+            padding: 30px 0;
+
+        }
+
+        .btn {
+            padding: 10px 10px;
+            background-color: rgb(70, 21, 116);
+            font-size: 14px;
+            border-radius: 10px;
+            cursor: pointer;
+        }
+
+        .btn a {
+            text-decoration: none;
+            color: white;
+        }
+
+        .footer-icons {
+            width: 23px;
+            cursor: pointer;
+            transition: 0.5 ease;
+        }
+
+        .icons {
+            width: 23px;
+            /* transition: 0.5s ease; */
+        }
+
+        .icons a {
+            text-decoration: none;
+            transition: 0.5s ease;
+            
+        }
+
+        .icons a:hover {
+            /* transition: 0.5s ease; */
+            transform: scale(1.3)translateY(-5px);
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Farwa's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">Service</a></li>
+                    <li><a href="/">Skills</a></li>
+                    <li><a href="/">Contact me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="firstsection">
+            <div class="leftsection">
+                Hey! My name is <span class="purple">Farwa Sundas.</span>
+                <div>And i'm a passionate</div>
+                <span id="element"></span>
+
+                <div class="buttons">
+                    <button class="btn"><a href="http://127.0.0.1:5500/Porfolio.html" download>Download Resume</a></button>
+                    <button class="btn"><a href="/">Visit Github</a></button>
+                </div>
+            </div>
+            <div class="rightsection">
+                <img src="pt.png.png" alt="">
+                <div></div>
+            </div>
+        </section>
+        <!--horizontal line-->
+        <hr style="border: 1px solid ;
+        position: relative;
+        justify-content: center;
+        color: rgb(163, 77, 244); 
+        margin: 50px;">
+
+        <!--for second section-->
+        <section class="secondsection">
+            <span class="text-gray">What I have so far</span>
+            <h1>Work Experience</h1>
+
+            <div class="box">
+                <div class="vertical">
+                    <img src="html-43-64.png" alt="" class="image-top">
+                    <div class="vertical-title">
+                        HTML developer (2019-2020)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus praesentium assumenda odit
+                        nesciunt voluptates harum sequi, consectetur quaerat obcaecati sint dolores rerum dignissimos?
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img src="js2.png.png" alt="" class="image-top">
+                    <div class="vertical-title">
+                        Node.js developer (2020-2021)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus praesentium assumenda odit
+                        nesciunt voluptates harum sequi, consectetur quaerat obcaecati sint dolores rerum dignissimos?
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img src="adobe-photoshop-logo-0.png" alt="" class="image-top">
+                    <div class="vertical-title">
+                        Web Designer (2020-2024)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus praesentium assumenda odit
+                        nesciunt voluptates harum sequi, consectetur quaerat obcaecati sint dolores rerum dignissimos?
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img src="PhotoshopExtension_Image.png" alt="" class="image-top">
+                    <div class="vertical-title">
+                        Video Editor (2024-2025)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus praesentium assumenda odit
+                        nesciunt voluptates harum sequi, consectetur quaerat obcaecati sint dolores rerum dignissimos?
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                <h3>Farwa's Developer Portfolio</h3>
+            </div>
+            <div class="footer-second">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Service</li>
+                    <li>Skill</li>
+                    <li>Contact us</li>
+                </ul>
+            </div>
+            <div class="footer-third">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Service</li>
+                    <li>Skill</li>
+                    <li>Contact us</li>
+                </ul>
+            </div>
+            <div class="footer-fourth">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Service</li>
+                    <li>Skill</li>
+                    <li>Contact us</li>
+                </ul>
+            </div>
+            <div class="footer-icons">
+                <a href="https://mail.google.com/mail/?view=cm&fs=1&to=farwasundas7@gmail.com" target="_Email" type="email"><img class="icons" src="email.png" alt=""></a>
+                <a href="https://wa.me/923107490722"><img class="icons" src="social.png" alt=""></a>
+                <a href="https://github.com/Farwa0726"><img class="icons" src="github.png" alt=""></a>
+                <a href="https://www.google.com/" target="_blank"><img class="icons" src="google.png" alt=""></a>
+                <a href="https://www.instagram.com/farwa_vocals/#" target="_blank"><img class="icons" src="instagram.png" alt=""></a>
+            </div>
+        </div>
+        <div class="footer-rights">
+            copyright &#169; farwasportfolio.com | All rights reserved
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <!-- Setup and start animation! -->
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web developer', 'Graphic designer', 'Web designer', 'Video editor'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+
+</html>
